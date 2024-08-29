@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="@android:color/white">
+
+    <!-- Post Button -->
+    <Button
+        android:id="@+id/button_post"
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        android:text="Post"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/rounded_button"
+        android:layout_margin="20dp"
+        android:textSize="120px"
+        />
+
+    <!-- Layout Button -->
+    <Button
+        android:id="@+id/button_layout"
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        android:text="Layout"
+        android:textSize="120px"
+        android:background="@drawable/rounded_button"
+        android:layout_margin="20dp"
+        android:layout_gravity="center_horizontal"
+        />
+    <!-- Profile Button -->
+    <Button
+        android:id="@+id/button_profile"
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        android:text="Profile"
+        android:textSize="120px"
+        android:background="@drawable/rounded_button"
+        android:layout_margin="20dp"
+        android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>
