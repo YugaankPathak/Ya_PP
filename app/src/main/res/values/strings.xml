@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">YAPP.in</string>
+    <string name="title_activity_second">SecondActivity</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Define array for Add Apparel Page -->
+    <string-array name="upper_body_array">
+        <item>Shirt</item>
+        <item>T-shirt</item>
+        <item>Hoodie</item>
+        <item>Kurta</item>
+    </string-array>
+
+    <string-array name="lower_body_array">
+        <item>Pants</item>
+        <item>Shorts</item>
+        <item>Jeans</item>
+    </string-array>
+
+    <string-array name="accessory_array">
+        <item>Cap</item>
+        <item>Shoes</item>
+    </string-array>
+
+    <!-- Image Button Description -->
+    <string name="image_description">A good appearing upload button</string>
+
+</resources>

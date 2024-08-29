@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Add Button -->
+    <Button
+        android:id="@+id/button_add"
+        android:layout_width="341dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="20dp"
+        android:background="@drawable/rounded_button"
+        android:baselineAligned="false"
+        android:text="Add"
+        android:textSize="120px" />
+
+    <!-- Wardrobe Button -->
+    <Button
+        android:id="@+id/button_wardrobe"
+        android:layout_width="341dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="20dp"
+        android:background="@drawable/rounded_button"
+        android:baselineAligned="false"
+        android:text="Wardrobe"
+        android:textSize="120px" />
+
+    <!-- Layout Button -->
+    <Button
+        android:id="@+id/button_layout"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="20dp"
+        android:background="@drawable/rounded_button"
+        android:text="Layout"
+        android:textSize="120px" />
+
+    <!-- Post Button -->
+    <Button
+        android:id="@+id/button_post"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="20dp"
+        android:background="@drawable/rounded_button"
+        android:text="Post"
+        android:textSize="120px" />
+
+    <!-- Profile Button -->
+    <Button
+        android:id="@+id/button_profile"
+        android:layout_width="350dp"
+        android:layout_height="94dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="20dp"
+        android:background="@drawable/rounded_button"
+        android:text="Profile"
+        android:textSize="120px" />
+
+</LinearLayout>

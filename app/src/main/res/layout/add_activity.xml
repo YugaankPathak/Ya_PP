@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="5dp"
+        tools:ignore="MissingConstraints">
+
+        <!-- Heading -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="8dp"
+            android:text="Add New Apparel"
+            android:textSize="24sp" />
+
+        <!-- Gender Radio Group -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:paddingBottom="8dp"
+            android:text="Upper Body/ Lower Body"
+            android:textSize="18sp" />
+
+        <RadioGroup
+            android:id="@+id/radio_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radio_upper"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Upper" />
+
+            <RadioButton
+                android:id="@+id/radio_lower"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lower" />
+
+            <RadioButton
+                android:id="@+id/radio_other"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Accessory" />
+        </RadioGroup>
+
+        <!-- Dropdown (Spinner) -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select Type"
+            android:textSize="18sp"
+            android:layout_marginTop="16dp"
+            android:paddingBottom="8dp" />
+
+        <Spinner
+            android:id="@+id/spinner_category"
+            android:layout_width="match_parent"
+            android:layout_height="48dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:paddingBottom="8dp"
+            android:text="Color"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/input_color"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Blue,Red e.t.c."
+            android:inputType="text" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:paddingBottom="8dp"
+            android:text="Material"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/input_material"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Denims,Cotton e.t.c."
+            android:inputType="text" />
+
+        <!-- Ownership -->
+        <Switch
+            android:id="@+id/switch2"
+            android:layout_width="wrap_content"
+            android:layout_height="47dp"
+            android:text="Personal" />
+
+        <!-- ImageView to display the uploaded image -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/imageButton"
+                android:layout_width="180dp"
+                android:layout_height="155dp"
+                android:contentDescription="@string/image_description"
+                android:scaleType="fitCenter"
+                android:src="@drawable/upolad_image" />
+        </LinearLayout>
+
+        <!-- Submit Button -->
+        <Button
+            android:id="@+id/button_submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Add" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
